@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="row" id="app">
+                <!-- Silence is golden -->
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <ol class="list">
+                <li>
+                    Стилизовать доску в 3 колонки, каждая колонка представляет интерактивный список, 
+                    в списке отображаем активный элемент, по наведению на элемент списка меняем фон и цвет текста
+                </li>
+                <li>
+                    Добавляем обработчики на нажатие клавиш вверх/вниз для изменения активного элемента в рамках списка
+                </li>
+                <li>
+                    При удержании shift + стрелки вверх/вниз меняем порядок элементов в рамках списка
+                </li>
+                <li>
+                    При удержании shift + стрелки влево/вправо перемещаем элементы между списками
+                </li>
+                <li>
+                    Реализовать dnd элементов между списками
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <script src="src/js/init.js"></script>
+    <script src="src/js/keyhandler.js"></script>
+    <script src="src/js/dndhandler.js"></script>
+</body>
+</html>
